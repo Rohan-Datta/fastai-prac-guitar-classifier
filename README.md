@@ -15,7 +15,7 @@ license: apache-2.0
 
 ## List of guitar types in this app's scope:
 1. [Acoustic Bass Guitar](https://en.wikipedia.org/wiki/Acoustic_bass_guitar)
-    - [What it sounds like](hhttps://www.youtube.com/watch?v=smxaH-GTW1w)
+    - [What it sounds like](https://www.youtube.com/watch?v=smxaH-GTW1w)
 2. [Archtop Guitar](https://en.wikipedia.org/wiki/Archtop_guitar)
     - [What it sounds like](https://www.youtube.com/watch?v=piKSZsJsJyM)
 3. [Classical Guitar](https://en.wikipedia.org/wiki/Classical_guitar)
@@ -32,8 +32,8 @@ license: apache-2.0
 - There was some manual data cleaning done between data augmentation and model fine-tuning. The details are described in the [train.py](train.py) script.
 
 ## Observations:
-- The most commonly confused category pairs are **acoustic bass:classical** and **classical:flat-top**. This makes sense because apart from the headstock and the strings themselves, these 3 categories are largely similar. Higher resolution images for training should help the model in doing a better job of distinguishing these categories.
-- The fine-tuning works well despite being given less than 200 images per class and 5 training epochs.
+- The most commonly confused category pairs are **acoustic bass : classical** and **classical : flat-top**. This makes sense because apart from the headstock and the strings themselves, these 3 categories are largely similar. Higher resolution images for training should help the model in doing a better job of distinguishing betweeen these categories.
+- The fine-tuning works well despite being given less than 200 images per class and only 5 training epochs.
 
 ## Using the app:
 1. The app can be accessed at https://huggingface.co/spaces/rdat/fastai-prac-guitar-classifier. Add an image to the input area and click submit to get the model's inference along with probability percentages.
