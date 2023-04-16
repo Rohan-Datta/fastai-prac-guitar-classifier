@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1156853959de68eb9f1df55834e218b8e1b4ba953b2a701d375efdad1aafd258
-size 13
+fastai
+gradio
